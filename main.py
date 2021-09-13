@@ -11,8 +11,6 @@ PLUGINS = dict(
     root="plugins",
     include=[
         "vc." + environ["PLUGIN"],
-        "notes",
-        "paste",
         "ping",
         "sysinfo"
     ]
